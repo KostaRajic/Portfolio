@@ -13,7 +13,7 @@
     "routes": [
       {
         "src": "/sendMail/(.*)",
-      "dest": "/Backend/$1"
+"dest": "/Backend/Server.js"
       },
       {
         "src": "/(.*)",
