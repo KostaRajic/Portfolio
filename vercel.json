@@ -13,11 +13,11 @@
     "routes": [
       {
         "src": "/sendMail/(.*)",
-        "dest": "/server/$1"
+      "dest": "/Backend/$1"
       },
       {
         "src": "/(.*)",
-        "dest": "/client/$1"
+      "dest": "/portfolio/$1"
       }
     ]
   }
