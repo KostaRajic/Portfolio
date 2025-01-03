@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  text-shadow: black 10px 10px 10px;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.874);
+  position: relative;
+  color: gold;
+}
+
+.background {
+  transform: translateY(15%);
+  margin: 0 auto;
+  background-image: url(../src/assets/Images/portfolioImage.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: black 10px 10px 10px;
+  width: 1103px;
+  height: 583px;
+}
+
+.mainComponentClass {
+  display: flex;
+}
+
+.leftMainComponentClassTop {
+  display: flex;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 20px;
+  padding: 0 50px;
+}
+h5 span {
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+}
+h5 span:hover {
+  transform: scale(1.1);
+}
+h5 span:active {
+  transform: scale(1);
+}
+
+.myPictureClass {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  box-shadow: black 10px 10px 10px;
+}
+
+a {
+  display: inline-block;
+  color: gold;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+a:active {
+  transform: scale(1);
+}
+
+.leftMainComponentClassBottom {
+  display: flex;
+  margin: 40px;
+}
+.leftMainComponentClassBottom p {
+  padding: 40px 100px;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.leftMainComponentClassBottom p:hover {
+  transform: scale(1.1);
+}
+.leftMainComponentClassBottom p:active {
+  transform: scale(1);
+}
+
+h2 {
+  margin-top: 29px;
+  font-size: 40px;
+  margin-left: -240px;
+}
+
+.rightMainComponentClass h2 {
+  cursor: pointer;
+}
+
+.rightMainComponentClass h2:hover {
+  transform: scale(1.1);
+}
+
+.rightMainComponentClass h2:active {
+  transform: scale(1);
+}
+
+.projectsClass {
+  background-image: url(../src/assets/Images/portfolioImage.jpg);
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px 20px 60px;
+}
+
+.projectsClass div:hover {
+  transform: scale(1.1);
+}
+
+.projectsClass div:active {
+  transform: scale(1);
+}
+
+.projectsClass img {
+  height: 300px;
+  width: 280px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  box-shadow: black 10px 10px 10px;
+}
+
+.projectsClass h4 {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: gold;
+}
+
+.projectsClass p {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  width: 280px;
+  color: gold;
+}
+
+.closeBtn1 {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+  width: 25px;
+}
+
+.closeBtn1:hover {
+  transform: scale(1.1);
+}
+
+.closeBtn1:active {
+  transform: scale(1);
+}
+
+.closeBtn2 {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.closeBtn2:hover {
+  transform: scale(1.1);
+}
+
+.closeBtn2:active {
+  transform: scale(1);
+}
+
+.certificateClass {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.certificateClass img {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.portalClass {
+  position: fixed;
+  inset: 0;
+}
+.portalClass div {
+  transform: translateY(15%);
+  width: 1103px;
+  height: 583px;
+  margin: 0 auto;
+  background-image: url(../src/assets/Images/portfolioImage.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  text-align: center;
+}
+.portalClass p {
+  font-size: 30px;
+  padding: 0 50px;
+  line-height: 2;
+}
+.portalClass h2 {
+  margin: 0 auto;
+  font-size: 65px;
+  padding: 40px 0;
+}
+
+.closeBtn3 {
+  z-index: 7;
+  position: absolute;
+  top: 100px;
+  left: 110px;
+  cursor: pointer;
+}
+
+.closeBtn3:hover {
+  transform: scale(1.1);
+}
+
+.closeBtn3:active {
+  transform: scale(1);
+}
+
+.closeBtn4 {
+  z-index: 7;
+  position: absolute;
+  top: 100px;
+  right: 110px;
+  cursor: pointer;
+}
+
+.closeBtn4:hover {
+  transform: scale(1.1);
+}
+
+.closeBtn4:active {
+  transform: scale(1);
+}
+
+.skillsClass {
+  position: fixed;
+  inset: 0;
+}
+.skillsClass div {
+  width: 1103px;
+  height: 583px;
+  margin: 0 auto;
+  background-image: url(../src/assets/Images/portfolioImage.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  font-style: a;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.skillsClass div p {
+  margin: 50px;
+  font-size: 60px;
+  width: 30%;
+  cursor: pointer;
+}
+.skillsClass div p:hover {
+  transform: scale(1.1);
+}
+.skillsClass div p:active {
+  transform: scale(1);
+}
+
+.programingLanguagesClass {
+  position: fixed;
+  inset: 0;
+}
+.programingLanguagesClass div {
+  width: 1103px;
+  height: 583px;
+  margin: 0 auto;
+  background-image: url(../src/assets/Images/portfolioImage.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+}
+.programingLanguagesClass span {
+  margin: 15px;
+  font-size: 30px;
+}
+.programingLanguagesClass strong {
+  margin-right: 40px;
+}
+
+.contactClass p {
+  margin-left: -245px;
+}
+
+.contactIcon {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.contactIcon:hover {
+  transform: scale(1.3);
+}
+
+.contactIcon:active {
+  transform: scale(1);
+}
+
+.portalClassEmail {
+  position: fixed;
+  inset: 0;
+  transform: translateY(15%);
+  width: 1103px;
+  height: 583px;
+  margin: 0 auto;
+  background-image: url(/src/assets/Images/portfolioImage.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portalClassEmail div .upperPart {
+  display: flex;
+  flex-direction: row;
+}
+.portalClassEmail div input {
+  margin: 70px 50px 50px 50px;
+  width: 400px;
+  height: 40px;
+  text-shadow: none;
+  font-size: 20px;
+  padding: 20px;
+}
+.portalClassEmail textarea {
+  text-shadow: none;
+  width: 900px;
+  height: 300px;
+  font-size: 20px;
+  padding: 20px;
+}
+.portalClassEmail button {
+  width: 160px;
+  height: 40px;
+  margin-top: 40px;
+  text-shadow: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.portalClassEmail button:hover {
+  transform: scale(1.1);
+}
+.portalClassEmail button:active {
+  transform: scale(1);
+}/*# sourceMappingURL=index.css.map */
